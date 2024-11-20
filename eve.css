@@ -1,0 +1,156 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100vh; */
+  margin: 0;
+}
+
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* position: absolute;
+  top: 1rem;
+  left: 1rem; */
+}
+
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* Caption Styles */
+caption {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+th {
+  border: 1px solid #ddd;
+}
+
+.edit {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+.delete {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100vh; */
+  /* position: absolute; */
+  /* top: 2rem; */
+}
+
+/* Form container styling */
+.add-form {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 4.2rem;
+  left: 65rem;
+}
+
+/* Heading style */
+.add-form h3 {
+  font-size: 1.5em;
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input field styles */
+.add-form input[type="text"],
+.add-form input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus effect for input fields */
+.add-form input[type="text"]:focus,
+.add-form input[type="number"]:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Button styles */
+.add-form button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.add-form button:hover {
+  background-color: #45a049;
+}
+
+/* Cancel button style */
+#cancelAdd {
+  background-color: #f44336;
+}
+
+#cancelAdd:hover {
+  background-color: #d32f2f;
+}
+
+/* Label styling */
+.add-form label {
+  font-size: 1em;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: 500;
+  color: #555;
+}
+
+/* A subtle box shadow on the form for a nice depth */
+.add-form {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
