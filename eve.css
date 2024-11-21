@@ -82,7 +82,7 @@ body {
   box-sizing: border-box;
   position: absolute;
   top: 4.2rem;
-  left: 65rem;
+  left: 85rem;
 }
 
 /* Heading style */
@@ -148,6 +148,8 @@ body {
   display: block;
   font-weight: 500;
   color: #555;
+  /* position: absolute; */
+
 }
 
 /* A subtle box shadow on the form for a nice depth */
